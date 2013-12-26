@@ -21,8 +21,8 @@ curl "https://raw.github.com/CryptoManiac/stratum-mining-proxy/master/auto_insta
 
 To install line-by-line
 ```bash
-# Python development package is required
-sudo apt-get install -y git-core python-dev
+# Python and libssl development packages are required
+sudo apt-get install -y git-core python-dev libssl-dev
 git clone https://github.com/CryptoManiac/stratum-mining-proxy.git
 cd stratum-mining-proxy
 
